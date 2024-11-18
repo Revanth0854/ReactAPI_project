@@ -1,0 +1,286 @@
+{
+    "products": [
+        {
+            "name": "Casual T-Shirt",
+            "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSd7fqGDt0aI6MFnP3aH9CU9ntTaQra-S4ASLttfry7Ktz8_kgOp8n0CpsDJmTQbcZju3qjfVH9ZpdUzhv_htbJvHtDYvMnf8yqyI3rOg89ss6ju4WVTgp_",
+            "price": "1660",
+            "description": "A comfortable cotton t-shirt perfect for casual wear.",
+            "category": "men"
+        },
+        {
+            "name": "Formal Shirt",
+            "image": "https://www.beyoung.in/api/cache/catalog/products/shirt_squre_image_update_14_3_2022/sky_blue_cotton_solid_shirts_for_men_base_02_05_2024_700x933.jpg",
+            "price": "2905",
+            "description": "A sleek, button-up shirt ideal for formal occasions.",
+            "category": "men"
+        },
+        {
+            "name": "Denim Jeans",
+            "image": "https://media.istockphoto.com/id/1132154377/photo/jeans.jpg?s=612x612&w=0&k=20&c=T3K1_PdlZxXILKFvGkTmPiIf5M2EdIxkqa79AJT_w0Y=",
+            "price": "3735",
+            "description": "Classic denim jeans with a straight fit.",
+            "category": "men"
+        },
+        {
+            "name": "Hoodie",
+            "image": "https://uniformtailor.in/image/cache/catalog/data/Sweatshirts/hoodie/personalized-black-hoodie/personalized-black-hoodie-with-company-logo-670x760.jpg",
+            "price": "2490",
+            "description": "A cozy hoodie with a kangaroo pocket.",
+            "category": "men"
+        },
+        {
+            "name": "Chinos",
+            "image": "https://imagescdn.thecollective.in/img/app/product/9/900493-11043306.jpg?w=500&auto=format",
+            "price": "3320",
+            "description": "Stylish chinos perfect for smart-casual outfits.",
+            "category": "men"
+        },
+        {
+            "name": "Leather Jacket",
+            "image": "https://devotedstore.com/cdn/shop/files/20.png?v=1711236919",
+            "price": "8300",
+            "description": "A rugged leather jacket for a classic look.",
+            "category": "men"
+        },
+        {
+            "name": "Polo Shirt",
+            "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQX59qxht7FFRBoe-Rj3HaOijrdqHlOWDARZCXGMcxuItDn-pqrz10OIDybLcBuu-PJm-FZrkUlzvxIomTFl_UQXjJYoMD0N12OrwkBN1b55qJyK1X52wVn0g",
+            "price": "2075",
+            "description": "A versatile polo shirt in a comfortable fit.",
+            "category": "men"
+        },
+        {
+            "name": "Sweatpants",
+            "image": "https://cdn11.bigcommerce.com/s-233ct/images/stencil/500x659/products/291/5435/SWEATPANT_BLACK_WEB_PANTS_STOREVIEW_NEW__47681.1638316640.jpg?c=2",
+            "price": "2490",
+            "description": "Casual sweatpants for everyday wear.",
+            "category": "men"
+        },
+        {
+            "name": "Shorts",
+            "image": "https://www.jiomart.com/images/product/original/rvyvoyejh8/e1k-mens-cotton-shorts_pack-of-5_multicolor_30_m-product-images-rvyvoyejh8-0-202308021212.jpg?im=Resize=(500,630)",
+            "price": "1660",
+            "description": "Comfortable shorts for warm weather.",
+            "category": "men"
+        },
+        {
+            "name": "Blazer",
+            "image": "https://blackberrys.com/cdn/shop/files/textured-formal-blazer-in-maroon-clara-blackberrys-clothing-1.jpg?v=1685951700",
+            "price": "6640",
+            "description": "A formal blazer, perfect for a polished look.",
+            "category": "men"
+        },
+        {
+            "name": "Dress",
+            "image": "https://assets.ajio.com/medias/sys_master/root/20230718/DElg/64b6be4aeebac147fc7726fb/-1117Wx1400H-466368522-black-MODEL.jpg",
+            "price": "4980",
+            "description": "A stylish dress for both casual and formal occasions.",
+            "category": "women"
+        },
+        {
+            "name": "Tank Top",
+            "image": "https://images.bestsellerclothing.in/data/vero-moda/16-feb-2023/123052801_g1.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto&dpr=1.2",
+            "price": "1245",
+            "description": "A basic tank top ideal for layering or wearing alone.",
+            "category": "women"
+        },
+        {
+            "name": "Skirt",
+            "image": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/13932840/2023/10/4/f9428b73-e366-43d3-bcc3-11a9b7369da81696402056495-anayna-Green--Beige-Printed-Pure-Cotton-Maxi-Flared-Skirt-17-7.jpg",
+            "price": "2905",
+            "description": "A trendy midi skirt with a comfortable fit.",
+            "category": "women"
+        },
+        {
+            "name": "Cardigan",
+            "image": "https://cdn.shopaccino.com/ajoobaa/products/handmade-oversized-cardigan-with-rainbow-and-cloud---blue-89278505424473_l.jpg?v=498",
+            "price": "2490",
+            "description": "A cozy cardigan for layering.",
+            "category": "women"
+        },
+        {
+            "name": "Blouse",
+            "image": "https://cdn.shopify.com/s/files/1/0654/5152/4353/files/5-5.png",
+            "price": "2075",
+            "description": "A flowy blouse with elegant detailing.",
+            "category": "women"
+        },
+        {
+            "name": "Jacket",
+            "image": "https://www.iconicindia.com/cdn/shop/products/2302-ELW-JKT987_1.jpg?v=1701406100",
+            "price": "5810",
+            "description": "A versatile jacket that pairs well with any outfit.",
+            "category": "women"
+        },
+        {
+            "name": "Sweatpants",
+            "image": "https://m.media-amazon.com/images/I/71i2kExZM6L._AC_UY1100_.jpg",
+            "price": "2075",
+            "description": "Comfortable and casual sweatpants.",
+            "category": "women"
+        },
+        {
+            "name": "Jeans",
+            "image": "https://uspoloassn.in/cdn/shop/products/1_03199a04-5ce3-4558-b074-453da8f597dd.jpg",
+            "price": "3735",
+            "description": "High-waisted skinny jeans.",
+            "category": "women"
+        },
+        {
+            "name": "T-Shirt",
+            "image": "https://5.imimg.com/data5/IOS/Default/2023/6/318569095/ZZ/FO/KM/83659867/product-jpeg.png",
+            "price": "1660",
+            "description": "A basic t-shirt for everyday wear.",
+            "category": "women"
+        },
+        {
+            "name": "Blazer",
+            "image": "https://uniformtailor.in/image/cache/catalog/data/womens/Suit/Women-Suit-Turquoise-New-670x760.jpg",
+            "price": "6225",
+            "description": "A formal blazer to enhance any professional look.",
+            "category": "women"
+        },
+        {
+            "name": "T-Shirt",
+            "image": "https://fullyfilmy.in/cdn/shop/files/kids-mockup.png?v=1714114928",
+            "price": "1245",
+            "description": "A soft, cotton t-shirt for everyday wear.",
+            "category": "kids"
+        },
+        {
+            "name": "Hoodie",
+            "image": "https://i.pinimg.com/736x/76/e6/63/76e6634d8b91041e655cbdd11f847a9d.jpg",
+            "price": "2075",
+            "description": "A cozy hoodie with fun colors and patterns.",
+            "category": "kids"
+        },
+        {
+            "name": "Jeans",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuI7d8CfHoEiuMKm5H7nbmR59I0LGjF7ScVQ&s",
+            "price": "2490",
+            "description": "Comfortable jeans with a flexible waistband.",
+            "category": "kids"
+        },
+        {
+            "name": "Shorts",
+            "image": "https://www.mumkins.in/cdn/shop/files/boys-shorts-bl08666-navyblue-1.jpg?v=1713421821&width=1080",
+            "price": "1495",
+            "description": "Playful shorts for warm days.",
+            "category": "kids"
+        },
+        {
+            "name": "Dress",
+            "image": "https://www.mumkins.in/cdn/shop/files/boys-kurta-pajama-bs10aj01-green-1.jpg?v=1725519828&width=1080",
+            "price": "2905",
+            "description": "A cute dress with fun prints for girls.",
+            "category": "kids"
+        },
+        {
+            "name": "Sweatshirt",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1v0apFk2rUQwtcIjs5gbDNF13xgwR7EtjMA&s",
+            "price": "1660",
+            "description": "A comfortable sweatshirt for active kids.",
+            "category": "kids"
+        },
+        {
+            "name": "Pajamas",
+            "image": "https://img.freepik.com/free-photo/kids-pajama-with-birthday-party-pattern_53876-105715.jpg",
+            "price": "1826",
+            "description": "Soft pajamas with fun designs.",
+            "category": "kids"
+        },
+        {
+            "name": "Jacket",
+            "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/27038954/2024/1/18/5e6cf0ca-2cfd-48cb-8908-63700a22cd221705577257768BAESDBoysBlackLightweightBomberJacket1.jpg",
+            "price": "3320",
+            "description": "A durable jacket for cooler days.",
+            "category": "kids"
+        },
+        {
+            "name": "Polo Shirt",
+            "image": "https://cdn06.nnnow.com/web-images/large/styles/KVJNYJXLJ2B/1704803132814/1.jpg",
+            "price": "1411",
+            "description": "A classic polo shirt for a stylish look.",
+            "category": "kids"
+        },
+        {
+            "name": "Skirt",
+            "image": "https://wholetex.sgp1.cdn.digitaloceanspaces.com/full/kids-heavy-net-skirt-and-top-96.jpg",
+            "price": "1660",
+            "description": "A playful skirt with colorful patterns.",
+            "category": "kids"
+        }
+    ],
+    "trends": [
+        {
+            "name": "Casual T-Shirt",
+            "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSd7fqGDt0aI6MFnP3aH9CU9ntTaQra-S4ASLttfry7Ktz8_kgOp8n0CpsDJmTQbcZju3qjfVH9ZpdUzhv_htbJvHtDYvMnf8yqyI3rOg89ss6ju4WVTgp_",
+            "price": "1660",
+            "description": "A comfortable cotton t-shirt perfect for casual wear.",
+            "category": "men"
+        },
+        {
+            "name": "Classic Denim Jacket",
+            "image": "https://www.workshop.co.nz/cdn/shop/products/Workshop-Denim-W7349-JTR-Classic-Denim-Jacket-VIntage-Wash-2_490x615.jpg?v=1648006708",
+            "price": "3200",
+            "description": "A rugged and stylish denim jacket for men.",
+            "category": "men"
+        },
+        {
+            "name": "Floral Summer Dress",
+            "image": "https://m.media-amazon.com/images/I/91feiPaFTqL._AC_UY1100_.jpg",
+            "price": "2500",
+            "description": "A light, airy floral dress perfect for the summer.",
+            "category": "women"
+        },
+        {
+            "name": "Unisex Sneakers",
+            "image": "https://media.darveys.com/catalog/product/s/h/shoe_110924_18096_2.jpg",
+            "price": "2800",
+            "description": "Versatile sneakers for all-day comfort, available for all.",
+            "category": "unisex"
+        }
+    ],
+    "logos": [
+        {
+            "name": "Nike",
+            "image": "https://static.vecteezy.com/system/resources/previews/010/994/411/non_2x/nike-logo-white-clothes-design-icon-abstract-football-illustration-with-black-background-free-vector.jpg"
+        },
+        {
+            "name": "H&M",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAaKiaRYNTRewPvMiE3pTI6o9LoTX1gpOtw&s"
+        },
+        {
+            "name": "Levi's",
+            "image": "https://fabrikbrands.com/wp-content/uploads/Levis-Logo-History-1b.png"
+        },
+        {
+            "name": "U.S Polo Assn",
+            "image": "https://static.vecteezy.com/system/resources/previews/024/455/583/non_2x/us-polo-assn-brand-symbol-logo-with-name-red-clothes-design-icon-abstract-illustration-free-vector.jpg"
+        },
+        {
+            "name": "PUMA",
+            "image": "https://1000logos.net/wp-content/uploads/2017/05/PUMA-Logo-2003.png"
+        }
+    ],
+    "cards":[
+        {
+            "head1":"Collections For Girls",
+            "head2":"Up to 40% Off",
+            "btn":"Shop Now",
+            "image":"https://img.freepik.com/premium-photo/beautiful-asian-woman-carrying-colorful-bags-shopping-online-with-mobile-phone_8087-3877.jpg"
+        },
+        {
+            "head1":"Collections For Men",
+            "head2":"Up to 50% Off",
+            "btn":"Shop Now",
+            "image":"https://img.freepik.com/free-photo/portrait-man-shopping-buying-consumer-goods_23-2151669741.jpg"
+        },
+        {
+            "head1":"Collections For Kids",
+            "head2":"Up to 60% Off",
+            "btn":"Shop Now",
+            "image":"https://media.istockphoto.com/id/155099131/photo/shopping.jpg?s=612x612&w=0&k=20&c=3ZL_FI-1cUKnBh3Lo6mVnX9qy-Ond4QTmRdKu11EtHg="
+        }
+    ]
+}
