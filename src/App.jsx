@@ -9,10 +9,10 @@ export const Data = createContext()
 
 function App() {
 
-  const productsUrl = "http://localhost:3000/products"
-  const logosUrl = "http://localhost:3000/logos"
-  const cardsUrl = "http://localhost:3000/cards"
-  const trendsUrl = "http://localhost:3000/trends"
+  const productsUrl = "https://reactapi-server.onrender.com/products"
+  const logosUrl = "https://reactapi-server.onrender.com/logos"
+  const cardsUrl = "https://reactapi-server.onrender.com/cards"
+  const trendsUrl = "https://reactapi-server.onrender.com/trends"
 
   const contextValue = {
     urls: { productsUrl, logosUrl, cardsUrl, trendsUrl }
