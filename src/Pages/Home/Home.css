@@ -36,7 +36,8 @@
     border-radius: 30px;
     transition: all 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     transform: scale(1.1);
 }
 
@@ -48,6 +49,11 @@
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.heroRight img:hover {
+    transform: scale(1.05);
 }
 
 @media(max-width:1293px) {
@@ -130,7 +136,8 @@
     text-align: center;
     transition: all 0.5s;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.05);
 }
 
@@ -266,10 +273,17 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+}
+
+.s4card img {
+    width: 70%;
+    height: 35vh;
+    border-radius: 10px;
     transition: all 0.5s;
 }
 
-.s4card:hover{
+
+.s4card img:hover {
     transform: scale(1.1);
 
 }
@@ -280,6 +294,10 @@
     font-weight: 800;
 }
 
+.s4card h4 {
+    text-align: center;
+}
+
 .cardDescription {
     width: 80%;
     display: flex;
@@ -288,11 +306,6 @@
     flex-direction: column;
 }
 
-.s4card img {
-    width: 70%;
-    height: 35vh;
-    border-radius: 10px;
-}
 
 @media(max-width:970px) {
     .s4card {
@@ -382,6 +395,11 @@
     height: 100px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 0.5s;
+}
+
+.logos img:hover {
+    transform: scale(1.2);
 }
 
 .trending {
@@ -569,7 +587,7 @@
     .email input {
         font-size: 1.1rem;
     }
-    
+
     .icons {
         width: 40%;
     }
@@ -588,7 +606,8 @@
         width: 75%;
         font-size: 1rem;
     }
-    .email img{
+
+    .email img {
         width: 50px;
         height: 50px;
     }
@@ -597,4 +616,52 @@
         width: 40%;
     }
 
+}
+
+
+/*      SORT BUTTONS         */
+
+.buttons-new {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #242424;
+    padding: 30px 0 50px 0;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 40px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.dropdown button:hover {
+    background: radial-gradient(rgb(15, 6, 16), hsl(177, 100%, 34%));
+    color: white;
+    transform: scale(1.1);
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 9%, 25%);
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
