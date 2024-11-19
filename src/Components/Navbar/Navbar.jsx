@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import navlogo from './NavbarAssets/navLogo.png'
-import search from './NavbarAssets/Search.png'
 import {Link} from 'react-router-dom'
+import { FaCartPlus } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -26,6 +26,7 @@ const Navbar = () => {
         <Link to='/kids'>Kids</Link>
         
       </div>
+        <FaCartPlus style={{width:"100px", border:"1px solid black"}}/>
       
       <div className="burger" onClick={handleClick} value={burger}>
         <div className="line1"></div>

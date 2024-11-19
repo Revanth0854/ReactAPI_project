@@ -2,7 +2,7 @@
     width: 100%;
     height: 90vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -27,7 +27,6 @@
 }
 
 .btn {
-    /* width: 25%; */
     font-size: 20px;
     border: none;
     background-color: #004743;
@@ -47,7 +46,7 @@
 
 .heroRight img {
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
     transition: all 0.5s;
 }
@@ -275,17 +274,23 @@
     align-items: center;
 }
 
-.s4card img {
+.s4cardImage{
     width: 70%;
+    height: 35vh;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.s4cardImage img  {
+    width: 100%;
     height: 35vh;
     border-radius: 10px;
     transition: all 0.5s;
 }
 
 
-.s4card img:hover {
+.s4card:hover .s4cardImage img{
     transform: scale(1.1);
-
 }
 
 .s4card h3 {

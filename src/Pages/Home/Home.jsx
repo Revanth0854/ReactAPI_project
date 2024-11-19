@@ -106,7 +106,9 @@ const Home = () => {
                     {type === "all" &&
                         filterData.map((item, index) => (
                             <div className="s4card" key={index}>
-                                <img src={item.image} alt="" />
+                                <div className="s4cardImage">
+                                    <img src={item.image} alt="" />
+                                </div>
                                 <div className="cardDescription">
                                     <h2>{item.name}</h2>
                                     <h3> ₹ {item.price} /-</h3>
@@ -120,7 +122,11 @@ const Home = () => {
                         products.filter(item => (item.category == "men"))
                             .map((item, index) => (
                                 <div className="s4card" key={index}>
-                                    <img src={item.image} alt="" />
+
+                                    <div className="s4cardImage">
+                                        <img src={item.image} alt="" />
+                                    </div>
+
                                     <div className="cardDescription">
                                         <h2>{item.name}</h2>
                                         <h3> ₹ {item.price} /-</h3>
@@ -134,7 +140,9 @@ const Home = () => {
                         products.filter(item => (item.category === "women"))
                             .map((item, index) => (
                                 <div className="s4card" key={index}>
-                                    <img src={item.image} alt="" />
+                                    <div className="s4cardImage">
+                                        <img src={item.image} alt="" />
+                                    </div>
                                     <div className="cardDescription">
                                         <h2>{item.name}</h2>
                                         <h3> ₹ {item.price} /-</h3>
@@ -148,7 +156,9 @@ const Home = () => {
                         products.filter(item => (item.category === "kids"))
                             .map((item, index) => (
                                 <div className="s4card" key={index}>
-                                    <img src={item.image} alt="" />
+                                    <div className="s4cardImage">
+                                        <img src={item.image} alt="" />
+                                    </div>
                                     <div className="cardDescription">
                                         <h2>{item.name}</h2>
                                         <h3> ₹ {item.price} /-</h3>
@@ -187,7 +197,9 @@ const Home = () => {
                     {
                         trends.map((item, index) => (
                             <div className="s4card" key={index}>
-                                <img src={item.image} alt="" />
+                                <div className="s4cardImage">
+                                    <img src={item.image} alt="" />
+                                </div>
                                 <div className="cardDescription">
                                     <h2>{item.name}</h2>
                                     <h3> ₹ {item.price} /-</h3>
@@ -217,7 +229,7 @@ const Home = () => {
             </div>
 
             {/* =========NEWSLETTER SECTION========== */}
-            
+
             <div className="newsLetter">
                 <img src={letter} alt="" />
                 <div className="letterHead">
@@ -234,7 +246,7 @@ const Home = () => {
                     <img src={twitter} alt="" />
                 </div>
             </div>
-        <Footer/>
+            <Footer/>
         </>
     )
 }

@@ -58,12 +58,12 @@ const Kids = () => {
 
   let fliteredItems = products.filter(item => (item.category == "kids"))
 
-  if(tops === true){
-    fliteredItems = fliteredItems.filter(item=>(item.subcategory==="top"))
+  if (tops === true) {
+    fliteredItems = fliteredItems.filter(item => (item.subcategory === "top"))
   }
 
-  if(bottoms === true){
-    fliteredItems = fliteredItems.filter(item=>(item.subcategory==="bottom"))
+  if (bottoms === true) {
+    fliteredItems = fliteredItems.filter(item => (item.subcategory === "bottom"))
   }
 
   if (isLowToHigh === true) {
@@ -73,7 +73,7 @@ const Kids = () => {
     fliteredItems.sort((a, b) => { return b.price - a.price })
   }
 
- 
+
 
   return (
     <div>
@@ -104,7 +104,9 @@ const Kids = () => {
         {
           fliteredItems.map((item, index) => (
             <div className="s4card" key={index}>
-              <img src={item.image} alt="" />
+              <div className="s4cardImage">
+                <img src={item.image} alt="" />
+              </div>
               <div className="cardDescription">
                 <h2>{item.name}</h2>
                 <h3> ₹ {item.price} /-</h3>

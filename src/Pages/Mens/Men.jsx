@@ -58,12 +58,12 @@ const Men = () => {
 
   let fliteredItems = products.filter(item => (item.category == "men"))
 
-  if(tops === true){
-    fliteredItems = fliteredItems.filter(item=>(item.subcategory==="top"))
+  if (tops === true) {
+    fliteredItems = fliteredItems.filter(item => (item.subcategory === "top"))
   }
 
-  if(bottoms === true){
-    fliteredItems = fliteredItems.filter(item=>(item.subcategory==="bottom"))
+  if (bottoms === true) {
+    fliteredItems = fliteredItems.filter(item => (item.subcategory === "bottom"))
   }
 
   if (isLowToHigh === true) {
@@ -76,7 +76,7 @@ const Men = () => {
   return (
     <>
       <Navbar />
-      
+
       <h1 style={{ fontFamily: "Cursive", fontSize: "40px", color: "white", background: "#242424", textAlign: "center" }}>Mens-Section</h1>
       <div className="buttons-new">
 
@@ -100,15 +100,17 @@ const Men = () => {
       <div className="Cards">
         {
           fliteredItems.map((item, index) => (
-              <div className="s4card" key={index}>
+            <div className="s4card" key={index}>
+              <div className="s4cardImage">
                 <img src={item.image} alt="" />
-                <div className="cardDescription">
-                  <h2>{item.name}</h2>
-                  <h3> ₹ {item.price} /-</h3>
-                  <h4>{item.description}</h4>
-                </div>
               </div>
-            ))
+              <div className="cardDescription">
+                <h2>{item.name}</h2>
+                <h3> ₹ {item.price} /-</h3>
+                <h4>{item.description}</h4>
+              </div>
+            </div>
+          ))
         }
       </div>
       <Footer />
