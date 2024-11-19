@@ -61,6 +61,17 @@ const Home = () => {
         setType(e.target.value)
     }
 
+    const [email, setEmail] = useState("")
+
+    const handleEmailChange=(e)=>{
+        setEmail(e.target.value)
+    }
+    const handleEmailClick= ()=>{
+        console.log(email)
+        setEmail("")
+    }
+
+
     return (
         <>
             <Navbar />
@@ -237,8 +248,8 @@ const Home = () => {
                     <h4>Subscribe to our email and get updates right in your inbox</h4>
                 </div>
                 <div className="email">
-                    <input type="text" placeholder='Enter Your Email' />
-                    <img src={send} alt="" />
+                    <input type="email" value={email} onChange={handleEmailChange} placeholder='Enter Your Email' />
+                    <img src={send} onClick={handleEmailClick} alt="" />
                 </div>
                 <div className="icons">
                     <img src={facebook} alt="" />

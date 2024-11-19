@@ -26,7 +26,7 @@ const Navbar = () => {
         <Link to='/kids'>Kids</Link>
         
       </div>
-        <FaCartPlus style={{width:"100px", border:"1px solid black"}}/>
+        <FaCartPlus style={{fontSize:"30px"}}/>
       
       <div className="burger" onClick={handleClick} value={burger}>
         <div className="line1"></div>
